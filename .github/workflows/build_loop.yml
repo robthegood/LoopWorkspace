@@ -215,7 +215,7 @@ jobs:
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          dexcom_upload_readings \
+          dexcom
           future_carbs_4h \
           high_carb_limit \
           no_auth \
@@ -225,8 +225,8 @@ jobs:
           2hlollipop \
           meal_days \
           2002 \
-          basal_lock \
-          live_activity
+          basal_lock 
+  
 
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
